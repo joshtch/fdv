@@ -1,0 +1,28 @@
+{
+  "name": "fdv",
+  "main": "verifier.js",
+  "description": "A script that verifies a solution against a finite domain logic problem",
+  "license": "MIT",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/qfox/fdv.git"
+  },
+  "scripts": {},
+  "babel": {
+    "presets": [
+      "es2015"
+    ],
+    "sourceMap": true
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "*"
+  },
+  "keywords": [
+    "constraint solving",
+    "GSAT",
+    "finite domain solver",
+    "FD",
+    "Solving"
+  ]
+}
