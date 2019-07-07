@@ -1,8 +1,8 @@
 // NOTE: must first call the exported setSolver function with a solver
 // this can be done once per entire test run (multiple files) since the closure persists
 
-//import FDP from '../fdp/src/fdp';
-//import FDO from '../fdo/src/fdo';
+import FDP from 'fdp';
+import FDO from 'fdo';
 
 import {
   EMPTY,
@@ -15,7 +15,7 @@ import {
   domain_minus,
   domain_mul,
   domain_plus,
-} from '../fdlib/src/domain';
+} from 'fdlib';
 
 let inspect = typeof require === 'function' ? function(arg) { return require('util').inspect(arg, false, null).replace(/\n ?/g, ' '); } : function(o) { return o; };
 
